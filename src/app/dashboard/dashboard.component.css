@@ -1,0 +1,6 @@
+.navbar-fixed{
+    height:100%;
+    position:fixed;
+    overflow-y:auto;
+}
+
