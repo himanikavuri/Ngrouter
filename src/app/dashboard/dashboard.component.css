@@ -1,6 +1,17 @@
-.navbar-fixed{
-    height:100%;
-    position:fixed;
-    overflow-y:auto;
+.navbar-fixed-left{
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    
+}
+.mainblock{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.btn{
+    width: 100px;
+    font-size: 15px;
 }
 

@@ -1,0 +1,13 @@
+<p>
+  overlay works!
+</p>
+
+
+<button type="text" pButton label="Basic" (click)="op.toggle($event)">Button</button>
+<br>
+<br>
+<p-sidebar [(visible)]="display">
+  Content
+</p-sidebar>
+
+<button type="text" (click)="display = true" pButton icon="fa-external-link-square" label="Show">Button1</button>
