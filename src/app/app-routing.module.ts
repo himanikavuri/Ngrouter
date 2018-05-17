@@ -20,7 +20,7 @@ import {CalendarModule,SplitButtonModule,ButtonModule,CarouselModule,
   OrganizationChartModule,FieldsetModule,PanelModule,TabViewModule,
   LightboxModule,OverlayPanelModule,SidebarModule,FileUploadModule,
   MenuModule,MenuItem,ContextMenuModule,BreadcrumbModule,ChartModule,
-  MessagesModule,MessageModule,GalleriaModule,ProgressBarModule,} from 'primeng/primeng';
+  MessagesModule,MessageModule,GalleriaModule,ProgressBarModule,ProgressSpinnerModule} from 'primeng/primeng';
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },

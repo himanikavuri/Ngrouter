@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms';
 import { Routes, RouterModule, RouterLinkActive } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -38,7 +39,8 @@ import {CalendarModule,
          MessagesModule,
          MessageModule,
          GalleriaModule,
-         ProgressBarModule
+         ProgressBarModule,
+         ProgressSpinnerModule
         } from 'primeng/primeng';
 import { FormStyle } from '@angular/common';
 import {TreeNode} from 'primeng/api';
@@ -62,6 +64,8 @@ import {MenuItem} from 'primeng/api';
     MiscComponent
   ],
   imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     CalendarModule,
     ButtonModule,
@@ -84,7 +88,8 @@ import {MenuItem} from 'primeng/api';
     MessagesModule,
     MessageModule,
     GalleriaModule,
-    ProgressBarModule
+    ProgressBarModule,
+    ProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

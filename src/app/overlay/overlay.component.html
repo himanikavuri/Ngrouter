@@ -10,4 +10,12 @@
   Content
 </p-sidebar>
 
-<button type="text" (click)="display = true" pButton icon="fa-external-link-square" label="Show">Button1</button>
+<p-sidebar [(visible)]="displaya" position="right">
+    Content
+</p-sidebar>
+<p-sidebar [(visible)]="displayb" position="left">
+    Content
+</p-sidebar>
+
+<button type="text" (click)="displaya = true" pButton icon="fa-external-link-square" label="Show">Button1</button>
+<button type="text" (click)="displayb = true" pButton icon="fa-external-link-square" label="Show">Button1</button>

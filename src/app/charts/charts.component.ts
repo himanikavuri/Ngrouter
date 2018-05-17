@@ -5,31 +5,25 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './charts.component.html',
   styleUrls: ['./charts.component.css']
 })
-export class ChartsComponent implements OnInit {
-  data: any;
-
-  constructor() {
-    this.data = {
-      labels: ['A','B','C'],
-      datasets: [
-          {
-              data: [300, 50, 100],
-              backgroundColor: [
-                  "#FF6384",
-                  "#36A2EB",
-                  "#FFCE56"
-              ],
-              hoverBackgroundColor: [
-                  "#FF6384",
-                  "#36A2EB",
-                  "#FFCE56"
-              ]
-          }]    
-   };
-  }
-
-  ngOnInit() {
-    
-  }
-
+export class ChartsComponent implements OnInit  {
+    data: any;
+    constructor() {
+        this.data = {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [
+                {
+                    label: 'First Dataset',
+                    data: [65, 59, 80, 81, 56, 55, 40]
+                },
+                {
+                    label: 'Second Dataset',
+                    data: [28, 48, 40, 19, 86, 27, 90]
+                }
+            ]
+        }
+    }
+    ngOnInit() {
+    } 
 }
+
+
